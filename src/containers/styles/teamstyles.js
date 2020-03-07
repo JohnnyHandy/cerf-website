@@ -25,8 +25,19 @@ width:100%
 
 export const Middle = styled.div`
 display: flex;
-width: 70%;
-position: absolute;
 height: 16rem;
-border: 1px solid black;
+justify-content:space-around;
+position: absolute;
+width: 70%;
+`
+
+export const ImageContainer = styled.div`
+height: 80%;
+align-self: center;
+width: 22%;
+`
+
+export const Image = styled.img`
+height: 100%;
+width: 100%;
 `
